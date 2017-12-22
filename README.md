@@ -32,7 +32,7 @@ let g:is_muni_iscreds = 'rofl'
 Kód je místy pěkně nepěkný, ale protože je quick-and-dirty a už ho nikdy neuvidím, je mi to docela ukradené.
 
 ## Doporučení
-Protože Vim syntaxi osmdesátosmdesátkového asssembleru v základu nezná, doporuči nainstalovat [vim-m80](https://github.com/oraculo666/vim-m80)
+Protože Vim syntaxi osmdesátosmdesátkového asssembleru v základu nezná, doporučuji nainstalovat [vim-m80](https://github.com/oraculo666/vim-m80)
 ```vim
 Plugin 'oraculo666/vim-m80'
 ```
