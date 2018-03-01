@@ -18,7 +18,7 @@ let g:is_muni_term = '7023'
 ```
 
 ### Závislosti
-* Python 3.6+
+* Python 3.6+ (musíte mít `python3` v `PATH`)
 * Beautiful Soup (`pip install beautifulsoup4`)
 * requests (`pip install requests`)
 
