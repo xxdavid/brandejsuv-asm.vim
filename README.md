@@ -10,10 +10,11 @@ Pokud používáte [Vundle](https://github.com/VundleVim/Vundle.vim), stačí do
 Plugin 'xxdavid/brandejsuv-asm.vim'
 ```
 
-Dále ve `.vimrc` deklarujte proměnné s cookies nějaké vaší do ISu přihlášené session (např. Firefox je zobrazuje v Network panelu DevTools):
+Dále ve `.vimrc` deklarujte proměnné s cookies nějaké vaší do ISu přihlášené session (např. Firefox je zobrazuje v Network panelu DevTools) a ID semestru (paramert `obdobi` v URL):
 ```vim
 let g:is_muni_issession = 'lol'
 let g:is_muni_iscreds = 'rofl'
+let g:is_muni_term = '7023'
 ```
 
 ### Závislosti

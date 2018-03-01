@@ -7,6 +7,7 @@ exercise = sys.argv[1]
 filename = sys.argv[2]
 issession = sys.argv[3]
 iscreds = sys.argv[4]
+term = sys.argv[5]
 
 with open(filename) as file:
     content = file.read()
@@ -19,11 +20,11 @@ cookies = {
 }
 
 response = requests.post(
-    f'https://is.muni.cz/auth/edutools/brandejs/compsyslab?fakulta=1433;obdobi=7023;ukol=i{exercise}',
+    f'https://is.muni.cz/auth/edutools/brandejs/compsyslab?fakulta=1433;obdobi={term};ukol=i{exercise}',
     data={
         'ukol': f'i{exercise}',
         'fakulta': '1433',
-        'obdobi': '7023',
+        'obdobi': term,
         'asembler': content,
         'exppar': '1',
         'kontrola': 'Zkontrolovat'
